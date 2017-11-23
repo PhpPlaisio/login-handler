@@ -1,0 +1,19 @@
+{
+  "name": "setbased/abc-login-handler",
+  "description": "ABC-Framework: Login Handler",
+  "keywords": [
+    "ABC-Framework",
+    "Login",
+    "Handler"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SetBased\\Abc\\Login\\": "src/"
+    }
+  }
+}
