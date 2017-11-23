@@ -1,6 +1,6 @@
 <?php
 //----------------------------------------------------------------------------------------------------------------------
-namespace SetBased\Abc\LoginProvider;
+namespace SetBased\Abc\Login;
 
 /**
  * Interface for login handlers.
