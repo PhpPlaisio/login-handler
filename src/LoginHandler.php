@@ -9,22 +9,15 @@ interface LoginHandler
 {
   //--------------------------------------------------------------------------------------------------------------------
   /**
-   * Returns the ID of the login response.
+   * Validates whether the user agent is allowed to login. Returns:
+   * <ul>
+   * <li>true  The user agent has successfully logged in.
+   * <li>false The user agent has failed to log in.
+   * <li>null  No validation has been done (e.g. only the login form has been generated).
    *
-   * @return int
+   * @return bool|null
    */
-  public function getLgrId();
-
-  //--------------------------------------------------------------------------------------------------------------------
-  /**
-   * Validates whether the user agent is allowed to login. Returns true is the user agent has successfully logged in.
-   * Returns false otherwise.
-   *
-   * @param array $data The data for validating the credentials.
-   *
-   * @return bool
-   */
-  public function validate(&$data);
+  public function validate();
 
   //--------------------------------------------------------------------------------------------------------------------
 }
