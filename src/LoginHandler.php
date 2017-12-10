@@ -13,7 +13,8 @@ interface LoginHandler
    * <ul>
    * <li>true  The user agent has successfully logged in.
    * <li>false The user agent has failed to log in.
-   * <li>null  No validation has been done (e.g. only the login form has been generated).
+   * <li>null  No validation has been done (e.g. only a login form has been generated).
+   * </ul>
    *
    * @return bool|null
    */
