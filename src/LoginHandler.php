@@ -1,6 +1,7 @@
 <?php
+declare(strict_types=1);
 
-namespace SetBased\Abc\Login;
+namespace Plaisio\Login;
 
 /**
  * Interface for login handlers.

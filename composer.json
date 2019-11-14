@@ -1,19 +1,18 @@
 {
-  "name": "setbased/abc-login-handler",
-  "description": "ABC-Framework: Login Handler",
+  "name": "plaisio/login-handler",
+  "description": "PhpPlaisio: Login Handler",
   "keywords": [
-    "ABC-Framework",
+    "PhpPlaisio",
     "Login",
     "Handler"
   ],
-  "type": "library",
   "license": "MIT",
   "require": {
     "php": ">=7.1.0"
   },
   "autoload": {
     "psr-4": {
-      "SetBased\\Abc\\Login\\": "src/"
+      "Plaisio\\Login\\": "src/"
     }
   }
 }
