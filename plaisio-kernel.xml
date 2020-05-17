@@ -1,0 +1,9 @@
+<kernel>
+    <properties>
+        <property>
+            <type>\Plaisio\Login\LoginHandler</type>
+            <name>loginHandler</name>
+            <description>The login handler for logging in a user agent.</description>
+        </property>
+    </properties>
+</kernel>
